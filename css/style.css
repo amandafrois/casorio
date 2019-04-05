@@ -883,4 +883,16 @@ a {
     	z-index: 99999999;
 
     }
+
+    .gmap_canvas{
+    	width: 310px;
+    }
+
+    .blog-item {
+    margin-top: 20px;
+}
+body > section:nth-child(4) > div > div > div > iframe {
+    width: 310px;
+}
+
 }
