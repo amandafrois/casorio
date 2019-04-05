@@ -859,3 +859,28 @@ a {
   font-family: 'BrittanySignature';
   src: url('../icon-fonts/BrittanySignature.ttf')  format('truetype'), /* Safari, Android, iOS */
        }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  html, body{
+    padding-left: 10px;
+    padding-right: 10px; 
+    }
+
+    .numeros.col-md-12 h2 {
+    font-size: 30px;
+    text-align: center;
+}
+    body > div:nth-child(6) > div.numeros.col-md-12 > div:nth-child(3) {
+    	padding-left: 0;
+    }
+
+    body > div:nth-child(5) > div > div.numeros.col-md-12 > div:nth-child(3) {
+    padding-left: 0;
+    }
+
+    .nav-switch{
+    	z-index: 99999999;
+
+    }
+}
