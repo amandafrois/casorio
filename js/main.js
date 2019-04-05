@@ -55,8 +55,8 @@ if(pathname === '/' || pathname === 'index.html'){
     clearInterval(x);
     document.getElementById("demo").innerHTML = "Enfim casados!";
   }
-}, 1000);
 }
+	}, 1000);
  	
  
 
