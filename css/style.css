@@ -885,7 +885,7 @@ a {
     }
 
     .gmap_canvas{
-    	width: 310px;
+    	width: 310px !important;
     }
 
     .blog-item {
